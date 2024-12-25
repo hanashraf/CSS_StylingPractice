@@ -1,0 +1,21 @@
+input{
+  border: none;
+  border-radius: 40px;
+  color: rgb(93, 91, 91);
+  font-size: 14px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  width: 400px;
+}
+
+.google-logo{
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.card{
+  align-self: centre;
+}

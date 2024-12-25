@@ -1,0 +1,13 @@
+p{
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+
+}
+button{
+  width: 35px;
+  text-align: center;
+  color: black;
+  border-color: black;
+  border-radius: 3px;
+}

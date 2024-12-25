@@ -1,0 +1,27 @@
+.div-style{
+  background-color: rgba(0, 0, 0, 0.795);
+  width: 310px;
+  height: 75px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: arial;
+}
+
+.heading-styling{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+.subheading-styling{
+  color: rgb(122, 122, 122);
+  font-size: 13px;
+}

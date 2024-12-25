@@ -1,0 +1,32 @@
+input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.email-styling{
+  display: block;
+  width: 417px;
+}
+.button-styling{
+  display: block;
+  margin-top: 10px;
+  width: 332px;
+  background-color: rgb(47, 127, 231);
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  width: 450px;
+
+}

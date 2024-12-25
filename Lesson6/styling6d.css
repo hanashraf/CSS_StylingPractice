@@ -1,0 +1,23 @@
+p{
+
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  font-family: Montserrat;
+}
+
+.heading-styling{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.subheading-styling{
+  font-size: 10px;
+}
+
+.subheading-span{
+  font-size: 10px;
+  text-decoration: underline;
+}

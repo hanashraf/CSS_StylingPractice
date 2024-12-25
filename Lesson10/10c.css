@@ -1,0 +1,50 @@
+.img-styling{
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: centre;
+}
+
+p{
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-family: Arial;
+  width: 250px;
+
+}
+
+.name{
+  font-weight: bold;
+  color: black;
+  margin-bottom: 3px;
+  font-size: 15px;
+  padding-bottom: 7px;
+  line-height: 1.4; 
+
+}
+
+.description{
+  color: grey;
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: 30px;
+}
+
+.insights{
+  color: grey;
+  font-size: 14px;
+}
+
+.vertical-styling{
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.main-div{
+  margin-bottom: 10px;
+}
+
+

@@ -1,0 +1,63 @@
+<style>
+.overlay-styling{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+  background-color: green;
+}
+.pop-up-window{
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.1);
+  justify-content: center;
+  align-items: center;
+}
+.modal-box{
+  width: 300px;
+  padding: 15px 10px 10px 15px;
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+}
+.title-styling{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.subtitle-styling{
+  font-size: 15px;
+  font-family: Arial;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+</style>
+
+
+<html>
+  <head>
+    <title>14d Exercise</title>
+  </head>
+  <body style="height: 3000px; width: 3000px;">
+    <div class="overlay-styling">
+      hi there
+    </div>
+    <div class="pop-up-window">
+      <div class="modal-box">
+        <div class="title-styling">Modal Title</div>
+        <div class="subtitle-styling">This is a modal</div>
+        <button>close</button>
+      </div>
+    </div>
+  </body> 
+</html>   

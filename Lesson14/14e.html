@@ -1,0 +1,72 @@
+<style>
+body{
+  height: 3000px;
+  background-color: bisque;
+}
+.img-styling{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+.overlay{
+  background-color: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+.name{
+  font-weight: bold;
+  font-family: Arial;
+
+}
+.add-friend-button{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  margin-right: 5px;
+
+}
+
+.message-button{
+  background-color: rgb(230, 230, 230);
+  border: none;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  margin-right: 60px;
+
+}
+</style>
+
+
+<html>
+  <head>
+    <title>14e Exercise</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <img src="images/cat.jpg" alt="cat-photo" class="img-styling">
+      <p class="name">Oliver Car</p>
+      <div style="flex: 1; min-width: 20px; "></div>
+      <button class="add-friend-button">Add Friend</button>
+      <button class="message-button">Message</button>
+    </div>
+  </body>
+</html>  

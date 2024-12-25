@@ -1,0 +1,65 @@
+.outer-box{
+  border-radius: 2px;
+  border: none;
+  width: 350px;
+  height: fit-content;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.395);
+  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title-styling{
+  font-size: 10px;
+  font-family: Arial;
+  color: rgb(141, 141, 141);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.inner-box{
+  display: grid;
+  grid-template-columns: 35px 1fr;
+}
+
+.profile-pic{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.inner-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-styling{
+  font-size: 10px;
+  font-family: Arial;
+  color: rgb(141, 141, 141);;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.heading-styling{
+  font-size: 15px;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.subheading-styling{
+  font-size: 12px;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
